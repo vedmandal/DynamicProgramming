@@ -5,7 +5,7 @@ using namespace std;
 
 
 // Normal fibonacci
-/*
+
 int fibo(int n){
     if(n==0 || n==1){
         return n;
@@ -19,11 +19,11 @@ int main(){
     cout<<fibo(10);
 
 }
-*/
+
 
 
 // FibboNacci using memorization
-/*
+
 int fibo(int n,vector<int>&dp){
     if(n==0 or n==1){
         return dp[n]=n;
@@ -45,7 +45,7 @@ int main(){
     cout<<fibo(n,dp);
 
 }
-*/
+
 
 // Fibonacii using Tabulation
 

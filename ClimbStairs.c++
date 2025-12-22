@@ -11,7 +11,7 @@
 using namespace std;
 
 // Normal countPath using recursion 
-/*
+
  int CountPath(int n){
     if(n==0){
         return 1;
@@ -26,11 +26,11 @@ int main(){
     cout<<CountPath(6);
 
 }
-*/
+
 
 //  Using Memorization
 
-/*
+
 int CountPaths(int n ,vector<int>&dp){
     if(n==0){
         return 1;
@@ -52,7 +52,7 @@ int main(){
     cout<<CountPaths(n,dp);
 }
 
-*/
+
 
 // using Tabulation
 
