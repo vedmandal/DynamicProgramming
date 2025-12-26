@@ -41,3 +41,4 @@ int main(){
 
     vector<vector<int>>dp(r,vector<int>(c));
     cout<<minCostPath(r, c,arr,dp);
+}
