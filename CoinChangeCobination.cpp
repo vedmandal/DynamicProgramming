@@ -43,7 +43,7 @@ int main(){
     int amt;
     cout<<"Enter amount"<<endl;
     cin>>amt;
-    vector<int>dp(amt+1);
+    vector<int>dp(amt+1,0);
 
     cout<<CoinChangeCombination(arr,dp);
 }
